@@ -1,1 +1,0 @@
-Deprecate ``from_science_raw`` and ``from_tvac_raw`` use ``create_from_model`` instead.

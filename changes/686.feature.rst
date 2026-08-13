@@ -1,1 +1,0 @@
-Save small arrays "inline" rather than storing them in binary ASDF blocks.

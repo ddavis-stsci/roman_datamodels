@@ -1,3 +1,32 @@
+1.1.0 (2026-08-13)
+==================
+
+Bug Fixes
+---------
+
+- Preserve provided defaults in ``create_minimal`` for required array
+  attributes
+  that lack ``minItems`` in the schema (for example ``exposure.read_pattern``
+  and
+  ``cal_logs``) instead of returning an empty array. (`#692
+  <https://github.com/spacetelescope/roman_datamodels/issues/692>`_)
+
+
+New Features
+------------
+
+- Save small arrays "inline" rather than storing them in binary ASDF blocks.
+  (`#686 <https://github.com/spacetelescope/roman_datamodels/issues/686>`_)
+
+
+Deprecations and Removals
+-------------------------
+
+- Deprecate ``from_science_raw`` and ``from_tvac_raw`` use
+  ``create_from_model`` instead. (`#690
+  <https://github.com/spacetelescope/roman_datamodels/issues/690>`_)
+
+
 1.0.0 (2026-05-15)
 ==================
 
